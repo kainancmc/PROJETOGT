@@ -1,10 +1,11 @@
-import styles from '../Header/Header.module.css'
+import styles from './Header.module.css'
+// import Logo from './components/logo_Header.jsx'
 
 function Header (){
     return(
         <header className= {styles.header}>
           <div className={styles.headerTop}>
-             <span > ícone </span>
+             <span>Icone</span>
              <nav>
              <a href="">Barra de busca</a>
                 <a href="">Cadastre-se</a>
